@@ -9,7 +9,7 @@ pub fn reverse_vowels(s: String) -> String {
         while l < c.len() && !vowels.contains(&c[l]) {
             l += 1;
         }
-        while r >= 0 && r < c.len() && !vowels.contains(&c[r]) {
+        while r < c.len() && !vowels.contains(&c[r]) {
             r -= 1;
         }
         if l < r && r < c.len() {
