@@ -1,5 +1,6 @@
 pub mod can_place_flowers;
 pub mod count_bits;
+pub mod find_difference;
 pub mod gcd_of_strings;
 pub mod increasing_triplet;
 pub mod is_subsequence;
@@ -18,6 +19,7 @@ pub mod unique_occurrences;
 
 pub use can_place_flowers::*;
 pub use count_bits::*;
+pub use find_difference::*;
 pub use gcd_of_strings::*;
 pub use increasing_triplet::*;
 pub use is_subsequence::*;
