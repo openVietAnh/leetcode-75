@@ -28,3 +28,9 @@ impl RecentCounter {
         self.queue.len().try_into().unwrap()
     }
 }
+
+// Prevent unused code warnings
+pub fn test_recent_counter() {
+    let mut counter = RecentCounter::new();
+    counter.ping(3000);
+}

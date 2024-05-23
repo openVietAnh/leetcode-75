@@ -36,3 +36,10 @@ impl SmallestInfiniteSet {
         }
     }
 }
+
+// Prevent unused code warnings
+pub fn test_smallest_infinite_set() {
+    let mut set = SmallestInfiniteSet::new();
+    set.pop_smallest();
+    set.add_back(1);
+}

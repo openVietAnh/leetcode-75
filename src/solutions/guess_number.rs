@@ -1,4 +1,4 @@
-fn guess(n: i32) -> i32 {
+fn guess(_n: i32) -> i32 {
     -1
 }
 

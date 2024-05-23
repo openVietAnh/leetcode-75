@@ -1,6 +1,5 @@
 pub fn decode_string(s: String) -> String {
     let mut stack: Vec<String> = vec![];
-    let mut result = String::from("");
     let mut i = 0;
     let chars: Vec<char> = s.chars().collect();
     while i < chars.len() {
