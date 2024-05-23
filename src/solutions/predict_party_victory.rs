@@ -2,8 +2,8 @@ use std::collections::VecDeque;
 
 pub fn predict_party_victory(senate: String) -> String {
     let mut queue = VecDeque::from_iter(senate.chars());
+    let (mut ban_radiant, mut ban_dire) = (0, 0);
     loop {
-        let (mut ban_radiant, mut ban_dire) = (0, 0);
         let (mut found_radiant, mut found_dire) = (false, false);
         let mut new_queue = VecDeque::new();
         while !queue.is_empty() {
