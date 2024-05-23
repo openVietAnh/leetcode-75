@@ -20,7 +20,7 @@ impl RecentCounter {
         }
     }
 
-    fn ping(&self, t: i32) -> i32 {
+    fn ping(&mut self, t: i32) -> i32 {
         self.queue.push_back(t);
         while self.queue.front().unwrap() + 3000 < t {
             self.queue.pop_front();
