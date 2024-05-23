@@ -8,6 +8,7 @@ pub mod gcd_of_strings;
 pub mod guess_number;
 pub mod longest_common_subsequence;
 // pub mod increasing_triplet;
+pub mod combination_sum3;
 pub mod is_subsequence;
 pub mod kids_with_candies;
 pub mod largest_altitude;
@@ -33,6 +34,7 @@ pub mod unique_paths;
 
 pub use asteroid_collision::*;
 pub use can_place_flowers::*;
+pub use combination_sum3::*;
 pub use count_bits::*;
 pub use decode_string::*;
 pub use find_difference::*;
