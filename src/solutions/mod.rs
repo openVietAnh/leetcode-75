@@ -1,5 +1,6 @@
 pub mod asteroid_collision;
 pub mod can_place_flowers;
+pub mod close_strings;
 pub mod count_bits;
 pub mod decode_string;
 pub mod find_difference;
@@ -34,6 +35,7 @@ pub mod unique_paths;
 
 pub use asteroid_collision::*;
 pub use can_place_flowers::*;
+pub use close_strings::*;
 pub use combination_sum3::*;
 pub use count_bits::*;
 pub use decode_string::*;
